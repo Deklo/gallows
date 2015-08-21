@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC40C3881B86C73800CE6820 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC40C3871B86C73800CE6820 /* AppDelegate.swift */; };
+		FC40C38A1B86C73800CE6820 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FC40C3891B86C73800CE6820 /* GameScene.sks */; };
+		FC40C38C1B86C73800CE6820 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC40C38B1B86C73800CE6820 /* GameScene.swift */; };
+		FC40C38E1B86C73800CE6820 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC40C38D1B86C73800CE6820 /* GameViewController.swift */; };
+		FC40C3911B86C73800CE6820 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC40C38F1B86C73800CE6820 /* Main.storyboard */; };
+		FC40C3931B86C73800CE6820 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC40C3921B86C73800CE6820 /* Images.xcassets */; };
+		FC40C3961B86C73800CE6820 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC40C3941B86C73800CE6820 /* LaunchScreen.xib */; };
+		FC40C3A21B86C73800CE6820 /* GallowsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC40C3A11B86C73800CE6820 /* GallowsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC40C39C1B86C73800CE6820 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC40C37A1B86C73800CE6820 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC40C3811B86C73800CE6820;
+			remoteInfo = Gallows;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC40C3821B86C73800CE6820 /* Gallows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gallows.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC40C3861B86C73800CE6820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC40C3871B86C73800CE6820 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC40C3891B86C73800CE6820 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		FC40C38B1B86C73800CE6820 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FC40C38D1B86C73800CE6820 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FC40C3901B86C73800CE6820 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC40C3921B86C73800CE6820 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC40C3951B86C73800CE6820 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FC40C39B1B86C73800CE6820 /* GallowsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GallowsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC40C3A01B86C73800CE6820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC40C3A11B86C73800CE6820 /* GallowsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GallowsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC40C37F1B86C73800CE6820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC40C3981B86C73800CE6820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC40C3791B86C73800CE6820 = {
+			isa = PBXGroup;
+			children = (
+				FC40C3841B86C73800CE6820 /* Gallows */,
+				FC40C39E1B86C73800CE6820 /* GallowsTests */,
+				FC40C3831B86C73800CE6820 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC40C3831B86C73800CE6820 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC40C3821B86C73800CE6820 /* Gallows.app */,
+				FC40C39B1B86C73800CE6820 /* GallowsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC40C3841B86C73800CE6820 /* Gallows */ = {
+			isa = PBXGroup;
+			children = (
+				FC40C3871B86C73800CE6820 /* AppDelegate.swift */,
+				FC40C3891B86C73800CE6820 /* GameScene.sks */,
+				FC40C38B1B86C73800CE6820 /* GameScene.swift */,
+				FC40C38D1B86C73800CE6820 /* GameViewController.swift */,
+				FC40C38F1B86C73800CE6820 /* Main.storyboard */,
+				FC40C3921B86C73800CE6820 /* Images.xcassets */,
+				FC40C3941B86C73800CE6820 /* LaunchScreen.xib */,
+				FC40C3851B86C73800CE6820 /* Supporting Files */,
+			);
+			path = Gallows;
+			sourceTree = "<group>";
+		};
+		FC40C3851B86C73800CE6820 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC40C3861B86C73800CE6820 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC40C39E1B86C73800CE6820 /* GallowsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC40C3A11B86C73800CE6820 /* GallowsTests.swift */,
+				FC40C39F1B86C73800CE6820 /* Supporting Files */,
+			);
+			path = GallowsTests;
+			sourceTree = "<group>";
+		};
+		FC40C39F1B86C73800CE6820 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC40C3A01B86C73800CE6820 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC40C3811B86C73800CE6820 /* Gallows */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC40C3A51B86C73800CE6820 /* Build configuration list for PBXNativeTarget "Gallows" */;
+			buildPhases = (
+				FC40C37E1B86C73800CE6820 /* Sources */,
+				FC40C37F1B86C73800CE6820 /* Frameworks */,
+				FC40C3801B86C73800CE6820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gallows;
+			productName = Gallows;
+			productReference = FC40C3821B86C73800CE6820 /* Gallows.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC40C39A1B86C73800CE6820 /* GallowsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC40C3A81B86C73800CE6820 /* Build configuration list for PBXNativeTarget "GallowsTests" */;
+			buildPhases = (
+				FC40C3971B86C73800CE6820 /* Sources */,
+				FC40C3981B86C73800CE6820 /* Frameworks */,
+				FC40C3991B86C73800CE6820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC40C39D1B86C73800CE6820 /* PBXTargetDependency */,
+			);
+			name = GallowsTests;
+			productName = GallowsTests;
+			productReference = FC40C39B1B86C73800CE6820 /* GallowsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC40C37A1B86C73800CE6820 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Dylan Sabenfass";
+				TargetAttributes = {
+					FC40C3811B86C73800CE6820 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					FC40C39A1B86C73800CE6820 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FC40C3811B86C73800CE6820;
+					};
+				};
+			};
+			buildConfigurationList = FC40C37D1B86C73800CE6820 /* Build configuration list for PBXProject "Gallows" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC40C3791B86C73800CE6820;
+			productRefGroup = FC40C3831B86C73800CE6820 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC40C3811B86C73800CE6820 /* Gallows */,
+				FC40C39A1B86C73800CE6820 /* GallowsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC40C3801B86C73800CE6820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC40C3961B86C73800CE6820 /* LaunchScreen.xib in Resources */,
+				FC40C3931B86C73800CE6820 /* Images.xcassets in Resources */,
+				FC40C38A1B86C73800CE6820 /* GameScene.sks in Resources */,
+				FC40C3911B86C73800CE6820 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC40C3991B86C73800CE6820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC40C37E1B86C73800CE6820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC40C38C1B86C73800CE6820 /* GameScene.swift in Sources */,
+				FC40C38E1B86C73800CE6820 /* GameViewController.swift in Sources */,
+				FC40C3881B86C73800CE6820 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC40C3971B86C73800CE6820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC40C3A21B86C73800CE6820 /* GallowsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC40C39D1B86C73800CE6820 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC40C3811B86C73800CE6820 /* Gallows */;
+			targetProxy = FC40C39C1B86C73800CE6820 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC40C38F1B86C73800CE6820 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC40C3901B86C73800CE6820 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC40C3941B86C73800CE6820 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC40C3951B86C73800CE6820 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC40C3A31B86C73800CE6820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC40C3A41B86C73800CE6820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC40C3A61B86C73800CE6820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gallows/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC40C3A71B86C73800CE6820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gallows/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC40C3A91B86C73800CE6820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GallowsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gallows.app/Gallows";
+			};
+			name = Debug;
+		};
+		FC40C3AA1B86C73800CE6820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GallowsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gallows.app/Gallows";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC40C37D1B86C73800CE6820 /* Build configuration list for PBXProject "Gallows" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC40C3A31B86C73800CE6820 /* Debug */,
+				FC40C3A41B86C73800CE6820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC40C3A51B86C73800CE6820 /* Build configuration list for PBXNativeTarget "Gallows" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC40C3A61B86C73800CE6820 /* Debug */,
+				FC40C3A71B86C73800CE6820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC40C3A81B86C73800CE6820 /* Build configuration list for PBXNativeTarget "GallowsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC40C3A91B86C73800CE6820 /* Debug */,
+				FC40C3AA1B86C73800CE6820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC40C37A1B86C73800CE6820 /* Project object */;
+}
